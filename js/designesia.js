@@ -1175,7 +1175,7 @@
              var pos_y = jQuery(this).offset().top;
              var value = jQuery(this).find(".progress-bar").attr('data-value');
              var topOfWindow = jQuery(window).scrollTop();
-             if (pos_y < topOfWindow + 550) {
+             if (pos_y < topOfWindow + 700) {
                  jQuery(this).find(".progress-bar").css({
                      'width': value
                  }, "slow");
