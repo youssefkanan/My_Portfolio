@@ -8725,24 +8725,11 @@ body.dark-mode {
     left: -15%;
     z-index: 1
 }
-a.image-source-link {
-    display: flex;
-    background-color: #000;
-    padding: 5px 15px;
-    border-radius: 3px;
-    color: #fff;
-    top: -45px;
-    position: absolute;
-    right: 10px;
-}
-a.image-source-link:hover {
-    background-color: #f4f4f4;
-    color: #000;
-}
+
 .di-small-2 {
     position: absolute;
-    width: 40%;
-    height: 70%;
+    width: 30%;
+    height: 60%;
     right: -10%;
     bottom: -10%;
     z-index: 1
@@ -12810,4 +12797,7 @@ body.de_light::-webkit-scrollbar-track {
 
 body.de_light::-webkit-scrollbar-thumb {
   background-color: #dddddd;
+}
+section#section-about h1, section#section-about h2, section#section-about h3, section#section-about h4, section#section-about h5, section#section-about h6 {
+    color: #000;
 }
